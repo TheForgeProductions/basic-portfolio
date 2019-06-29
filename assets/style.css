@@ -24,10 +24,11 @@ a:visited {
 #navTitle {
     width: 250px;
     height: 65px;
-    padding-top: 30px;
+    padding-top: 25px;
     background: #4aaaa5;
     text-align: center;
     font-size: 24pt;
+    font-weight: bold;
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -59,6 +60,9 @@ h1 {
     border-bottom: solid rgb(235, 235, 235) 1px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
+h4 {
+    margin-top: 0px;
+}
 .content {
     padding: 15px;
     padding-top: 5px;
@@ -74,7 +78,7 @@ footer {
     text-align: center;
     background: rgb(102, 102, 102);
     border-top: solid #4aaaa5 7px;
-    padding-top: 40px;
+    padding-top: 25px;
     position: fixed;
     bottom: 0px;
     z-index: 100;
@@ -97,11 +101,15 @@ input {
     margin: 5%;
     z-index: 0;
 }
+#row3 {
+    margin: 5%;
+    z-index: 0;
+}
 .portfolioImage {
     position: relative;
     width: 275px;
     height: 210px;
-    margin: auto;
+    margin-right: auto;
 }
 .portfolioImage img{
 	width:100%;
