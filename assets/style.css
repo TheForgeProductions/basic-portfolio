@@ -25,7 +25,7 @@ a:visited {
     width: 250px;
     height: 65px;
     padding-top: 30px;
-    background: rgb(74, 170, 165);
+    background: #4aaaa5;
     text-align: center;
     font-size: 24pt;
     color: #ffffff;
@@ -38,7 +38,7 @@ a:visited {
     font-size: 14pt;
 }
 .contentBackground {
-    background-image: url(./images/marble-texture.jpg);
+    background-image: url(./assets/images/marble-texture.jpg);
     background-repeat: no-repeat;
     padding-top: 15px;
     margin: 0px;
@@ -47,6 +47,7 @@ a:visited {
 }
 .contentContainer {
     width: 900px;
+    height: auto;
     margin: auto;
     background:#ffffff;
     padding: 30px;
@@ -54,7 +55,7 @@ a:visited {
 }
 h1 {
     padding-bottom: 20px;
-    color: rgb(74, 170, 165);
+    color: #4aaaa5;
     border-bottom: solid rgb(235, 235, 235) 1px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -72,8 +73,57 @@ footer {
     width: 100%;
     text-align: center;
     background: rgb(102, 102, 102);
-    border-top: solid rgb(78, 158, 154) 7px;
+    border-top: solid #4aaaa5 7px;
     padding-top: 40px;
     position: fixed;
     bottom: 0px;
+    z-index: 100;
+}
+input {
+    width: 800px;
+}
+#message {
+    border-color: #cccccc;
+}
+#portfolio {
+    padding: 25px;
+}
+#row1 {
+    display: flex;
+    margin: 5%;
+}
+#row2 {
+    display: flex;
+    margin: 5%;
+    z-index: 0;
+}
+.portfolioImage {
+    position: relative;
+    width: 275px;
+    height: 210px;
+    margin: auto;
+}
+.portfolioImage img{
+	width:100%;
+    height:auto;
+}
+.portfolioImage div {
+    position:absolute;
+	top: 60%;
+	bottom: 15%;
+	left: 0;
+	right:0;
+	width: 100%;
+	height: 25%;
+	z-index: 50;
+    background: #4aaaa5;
+    text-align: center;
+    float: left;
+    color: #ffffff;
+}
+.portfolioImageText {
+    color: #ffffff;
+    width: 210px;
+    padding-top: 25px;
+    font-size: 18pt;
 }
