@@ -64,13 +64,13 @@ h4 {
     margin-top: 0px;
 }
 .content {
-    padding: 15px;
     padding-top: 5px;
     color: #777777;
 }
 .topLeftImage {
     float: left;
     padding: 15px;
+    padding-left: 0;
 }
 footer {
     height: 25px;
