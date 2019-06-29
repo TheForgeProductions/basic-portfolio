@@ -25,7 +25,7 @@ a:visited {
     width: 250px;
     height: 65px;
     padding-top: 30px;
-    background: rgb(74, 170, 165);
+    background: #4aaaa5;
     text-align: center;
     font-size: 24pt;
     color: #ffffff;
@@ -54,7 +54,7 @@ a:visited {
 }
 h1 {
     padding-bottom: 20px;
-    color: rgb(74, 170, 165);
+    color: #4aaaa5;
     border-bottom: solid rgb(235, 235, 235) 1px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -72,7 +72,7 @@ footer {
     width: 100%;
     text-align: center;
     background: rgb(102, 102, 102);
-    border-top: solid rgb(78, 158, 154) 7px;
+    border-top: solid #4aaaa5 7px;
     padding-top: 40px;
     position: fixed;
     bottom: 0px;
@@ -82,4 +82,7 @@ input {
 }
 #message {
     border-color: #cccccc;
+}
+#portfolio {
+    padding: 25px;
 }
